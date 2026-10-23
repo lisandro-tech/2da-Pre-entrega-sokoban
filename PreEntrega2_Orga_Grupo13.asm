@@ -6,10 +6,6 @@ mapa1: .asciz "#######\n#  .  #\n#  $  #\n#  @  #\n#######\n"
 mapa2: .asciz "########\n#  #   #\n# $ .  #\n# @  $ #\n#   .  #\n########\n"
 mapa3: .asciz "##########\n#   ..   #\n#  $$$$  #\n#   @    #\n#   ..   #\n##########\n"
 
-// =========================================================================
-// [PSEUDOCÓDIGO .DATA] - VARIABLES ADICIONALES A DECLARAR AQUÍ ABAJO
-// =========================================================================
-// Nota: Recuerde agregar el carácter '@' en mapa1, mapa2 y mapa3 en sus posiciones iniciales.
 jugador_pos: .word 0
 matriz_activa: .word 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 ancho_actual: .word 0
